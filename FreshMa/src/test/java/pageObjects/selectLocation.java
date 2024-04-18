@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class selectLocation {
 
-	@FindBy(xpath = "//span[@class='input-group-text'][@id='location-search']")
-	public static WebElement locationCrosshair;
+	@FindBy(xpath = "//button[@class='btn btn-secondary default-store d-block w-100']")
+	public static WebElement clickContinueButton;
 	
 }

@@ -1,5 +1,7 @@
 package TestCases;
 
+
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
@@ -12,5 +14,8 @@ public class OrderTrackingFunction extends CommonFunctions {
 
 		PageFactory.initElements(driver, OrderTracking.class);
 		OrderTracking.clickOrderTracking.click();
+//		Actions act = new Actions(driver);
+//		act.click(OrderTracking.closeTag).build().perform();
+		OrderTracking.closeTag.click();
 }
 }

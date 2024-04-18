@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class Support {
-	@FindBy(xpath = "//a[@class='ps-0'][@href='https://www.freshma.in/contact-us']")
+	@FindBy(xpath = "//li[@class='nav-item ']//a[@class='ps-0'][contains(@href,'https://www.freshma.in/contact-us')]")
 	public static WebElement clickSupport;
 	@FindBy(xpath = "//input[@type='text'][@class='form-control'][@placeholder='Enter Name']")
 	public static WebElement name;

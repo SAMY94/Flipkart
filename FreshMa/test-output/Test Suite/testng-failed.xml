@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Test Suite]">
-  <test thread-count="5" name="Test Case-4(failed)">
-    <classes>
-      <class name="TestCases.OffersFunction">
-        <methods>
-          <include name="offers"/>
-        </methods>
-      </class> <!-- TestCases.OffersFunction -->
-    </classes>
-  </test> <!-- Test Case-4(failed) -->
-  <test thread-count="5" name="Test Case-5(failed)">
-    <classes>
-      <class name="TestCases.StoreLocatorFunction">
-        <methods>
-          <include name="storeLocator"/>
-        </methods>
-      </class> <!-- TestCases.StoreLocatorFunction -->
-    </classes>
-  </test> <!-- Test Case-5(failed) -->
   <test thread-count="5" name="Test Case-6(failed)">
     <classes>
       <class name="TestCases.OrderTrackingFunction">
         <methods>
+          <include name="launchBrowser"/>
           <include name="orderTracking"/>
         </methods>
       </class> <!-- TestCases.OrderTrackingFunction -->

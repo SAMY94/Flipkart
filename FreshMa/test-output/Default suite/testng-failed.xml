@@ -7,7 +7,6 @@
         <methods>
           <include name="launchBrowser"/>
           <include name="support"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- TestCases.SupportFunction -->
     </classes>
